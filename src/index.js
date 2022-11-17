@@ -20,7 +20,7 @@ function onInputChange(event) {
   const { target } = event;
   const query = target.value.trim();
 
-  if (!target) {
+  if (!query) {
     countryListEl.innerHTML = '';
     countryInfoEl.innerHTML = '';
     return;
