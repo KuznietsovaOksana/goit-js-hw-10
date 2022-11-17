@@ -68,5 +68,7 @@ function onFetchError(error) {
       timeout: 2000,
     });
     console.dir(error);
+    countryInfoEl.innerHTML = '';
+    countryListEl.innerHTML = '';
   }
 }
